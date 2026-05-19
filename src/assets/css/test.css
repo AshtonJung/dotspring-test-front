@@ -1,0 +1,208 @@
+body {
+	line-height: 1.4em;
+	color: black;
+        padding:1em;
+        margin:auto;
+}
+.test{
+    line-height: 1.4em;
+}
+li {
+	color: black;
+}
+
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    border: 0 none !important;
+}
+
+h1 {    
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #000080 !important;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;    
+	border-bottom: 2px solid #000080 !important;    
+}
+
+pre {
+	background-color: #f8f8f8;    
+    border: 1px solid #2f6fab;
+    border-radius: 3px;
+    overflow: auto;
+    padding: 5px;
+}
+
+/* 코드 블록 스타일링 */
+code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; /* 고정폭 글꼴 사용 */
+    font-size: 14px; /* 글꼴 크기 설정 */
+    background-color: #000000; /* 배경색 설정 */
+    padding: 0.5em; /* 안쪽 여백 설정 */
+    border-radius: 5px; /* 테두리 반경 설정 */
+    border: 1px solid #ccc; /* 테두리 스타일 설정 */
+    display: block; /* 블록 요소로 표시 */
+    overflow-x: auto; /* 가로 스크롤 바 설정 */
+    line-height: 1.5; /* 줄 간격 설정 */
+    color: #fff;
+}
+
+/* 코드 블록 스타일링 */
+pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; /* 고정폭 글꼴 사용 */
+    font-size: 14px; /* 글꼴 크기 설정 */
+    background-color: #000000; /* 배경색 설정 */
+    padding: 0.5em; /* 안쪽 여백 설정 */
+    border-radius: 5px; /* 테두리 반경 설정 */
+    border: 1px solid #ccc; /* 테두리 스타일 설정 */
+    display: block; /* 블록 요소로 표시 */
+    overflow-x: auto; /* 가로 스크롤 바 설정 */
+    line-height: 1.5; /* 줄 간격 설정 */
+    color: #fff;
+}
+
+/* 키워드 강조 */
+.keyword {
+    color: #0077aa; /* 키워드 색상 설정 */
+    font-weight: bold; /* 키워드 굵게 표시 */
+}
+
+/* 문자열 강조 */
+.string {
+    color: #d14; /* 문자열 색상 설정 */
+}
+
+/* 주석 강조 */
+.comment {
+    color: #999; /* 주석 색상 설정 */
+    font-style: italic; /* 주석 이탤릭체 표시 */
+}
+
+
+
+a {
+	text-decoration: underline;	
+}
+
+ul, ol {
+	padding-left: 30px;
+}
+
+li {
+	margin: 0.2em 0 0 0em; padding: 0px;
+}
+
+em {
+	color: #b05000;
+}
+
+/* table.text th, table.text td {
+	vertical-align: top;
+	border-top: 1px solid #ccc;
+	padding:5px;
+} */
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    margin : 20px 10px;
+    background-color: #fff;
+  }
+  table th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    background: #eee;
+  }
+  table td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+
+  .hljs{
+    display:block;
+    overflow-x:auto;
+    padding:0.5em;
+    background:#1E1E1E;
+    color:#DCDCDC
+}
+.hljs-keyword,.hljs-literal,.hljs-symbol,.hljs-name{
+    color:#569CD6
+}
+.hljs-link{
+    color:#569CD6;
+    text-decoration:underline
+}
+.hljs-built_in,.hljs-type{
+    color:#4EC9B0
+}
+.hljs-number,.hljs-class{
+    color:#B8D7A3
+}
+.hljs-string,.hljs-meta-string{
+    color:#D69D85
+}
+.hljs-regexp,.hljs-template-tag{
+    color:#9A5334
+}
+.hljs-subst,.hljs-function,.hljs-title,.hljs-params,.hljs-formula{
+    color:#DCDCDC
+}
+.hljs-comment,.hljs-quote{
+    color:#57A64A;
+    font-style:italic
+}
+.hljs-doctag{
+    color:#608B4E
+}
+.hljs-meta,.hljs-meta-keyword,.hljs-tag{
+    color:#9B9B9B
+}
+.hljs-variable,.hljs-template-variable{
+    color:#BD63C5
+}
+.hljs-attr,.hljs-attribute,.hljs-builtin-name{
+    color:#9CDCFE
+}
+.hljs-section{
+    color:gold
+}
+.hljs-emphasis{
+    font-style:italic
+}
+.hljs-strong{
+    font-weight:bold
+}
+.hljs-bullet,.hljs-selector-tag,.hljs-selector-id,.hljs-selector-class,.hljs-selector-attr,.hljs-selector-pseudo{
+    color:#D7BA7D
+}
+.hljs-addition{
+    background-color:#144212;
+    display:inline-block;
+    width:100%
+}
+.hljs-deletion{
+    background-color:#600;
+    display:inline-block;
+    width:100%
+}

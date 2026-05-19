@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm run:*)",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs -I {} sh -c 'echo \"PID: {}\" && ps -p {} -o pid,command | tail -1')",
+      "Bash(kill 17488)",
+      "Bash(NITRO_PORT=3001 PORT=3001 pnpm run dev)",
+      "Bash(echo \"started PID: $!\")"
+    ]
+  }
+}
